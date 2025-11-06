@@ -46,10 +46,6 @@ def _clean_gdf(input_path: str, prefix: str, out_name: str, cleaned_folder: str)
 
     return gdf
 
-
-
-
-
 def get_data_preprocessed(
     act_exv: str,
     act_dump: str,

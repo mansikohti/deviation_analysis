@@ -36,7 +36,7 @@ def _add_summary_section(
         for c_idx, value in enumerate(row, start=col_start):
             ws.cell(row=r_idx, column=c_idx, value=value)
 
-    # Add chart
+    # Add chart - 
     img = XLImage(img_path)
     img.width = CHART_SIZE_COLS * CELL_WIDTH_PX
     img.height = CHART_SIZE_ROWS * CELL_HEIGHT_PX

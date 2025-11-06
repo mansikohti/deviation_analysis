@@ -19,4 +19,3 @@ __all__ = [
     'get_merged_and_save_files',
     'update_excel_with_tables_charts',
 ]
-

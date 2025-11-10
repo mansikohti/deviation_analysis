@@ -30,7 +30,7 @@ class Config:
     """Configuration class for Linear Analysis."""
     
     # Output Configuration
-    OUTPUT_DIR = "D:/2_Analytics/6_plan_vs_actual/6_nov_output_2"
+    OUTPUT_DIR = "D:/2_Analytics/6_plan_vs_actual/10_nov_output_1"
     
     # Actual data from site (excavation and dump)
     ACTUAL_EXCAVATION = "D:/2_Analytics/6_plan_vs_actual/All_Inputs_UTCL/Actual Dump & EXAVATION  area/Actual Excavated area.shp"
@@ -40,18 +40,7 @@ class Config:
     PLANNED_EXCAVATION = "D:/2_Analytics/6_plan_vs_actual/All_Inputs_UTCL/Proposed Dump & Pit Area from client/Proposed PIT AREA from client.shp"
     PLANNED_DUMP = "D:/2_Analytics/6_plan_vs_actual/All_Inputs_UTCL/Proposed Dump & Pit Area from client/Proposed Dump from client.shp"
     
-    # DWG file and ODA converter (for section lines with attributes)
-    INPUT_FOLDER_DWG = "D:/2_Analytics/6_plan_vs_actual/raw_data_dwg_file/dwg_file"
-    ODA_EXE = "C:/Program Files/ODA/ODAFileConverter 26.7.0/ODAFileConverter.exe"
-    
-    # DTMs (Digital Terrain Models)
-    DTM_ITR1_PATH = "D:/2_Analytics/6_plan_vs_actual/UTCL_data/UTCL_data/DEMs/dtm_1/DEM_itr_1.tif"
-    DTM_ITR2_PATH = "D:/2_Analytics/6_plan_vs_actual/UTCL_data/UTCL_data/DEMs/dtm_2/DEM_itr_2.tif"
-    
-    # Analysis Parameters
-    ITR_1 = 2024
-    ITR_2 = 2025
-    DEVIATION_THRESHOLD = 2  # meters
+   
     
     @classmethod
     def to_dict(cls) -> Dict[str, any]:
